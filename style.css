@@ -1,69 +1,123 @@
-/* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-/* Body */
 body {
-    font-family: "Segoe UI", Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333;
-    line-height: 1.6;
+  background: #f6f8fa;
+  color: #333;
+  line-height: 1.6;
 }
 
-/* Header */
+/* HEADER */
 header {
-    text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    border-bottom: 2px solid #22c55e; /* verde */
-    background-color: #f0fdf4;
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
 }
 
-/* Main */
+header h1 {
+  font-size: 28px;
+  color: #222;
+}
+
+/* MAIN */
 main {
-    padding: 60px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
-/* Sections */
+/* SECTIONS */
 section {
-    background-color: #f9fffb;
-    padding: 40px;
-    border-radius: 8px;
-    max-width: 700px;
-    width: 100%;
-    text-align: center;
-    border: 1px solid #bbf7d0;
-    transition: all 0.2s ease;
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 25px; /* espaçamento entre sections */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* Hover leve */
-section:hover {
-    border-color: #22c55e;
-    transform: translateY(-2px);
+section h2 {
+  margin-bottom: 10px;
+  color: #222;
 }
 
-/* Título */
-h1 {
-    font-size: 26px;
-    margin-bottom: 10px;
-    font-weight: 500;
-    color: #15803d; /* verde mais forte */
+section p {
+  color: #555;
 }
 
-/* Footer */
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* INPUTS */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+  color: #444;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #007bff;
+}
+
+/* TEXTAREA */
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* BUTTON */
+button {
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* FOOTER */
 footer {
-    margin-top: 40px;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    border-top: 2px solid #22c55e;
-    color: #666;
-    background-color: #f0fdf4;
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
 }
