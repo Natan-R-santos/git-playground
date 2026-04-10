@@ -18,8 +18,8 @@ header {
     text-align: center;
     padding: 20px;
     font-size: 20px;
-    border-bottom: 2px solid #facc15; /* amarelo */
-    background-color: #fffbea;
+    border-bottom: 2px solid #22c55e; /* verde */
+    background-color: #f0fdf4;
 }
 
 /* Main */
@@ -33,19 +33,19 @@ main {
 
 /* Sections */
 section {
-    background-color: #fffdf5;
+    background-color: #f9fffb;
     padding: 40px;
     border-radius: 8px;
     max-width: 700px;
     width: 100%;
     text-align: center;
-    border: 1px solid #fde68a;
+    border: 1px solid #bbf7d0;
     transition: all 0.2s ease;
 }
 
 /* Hover leve */
 section:hover {
-    border-color: #facc15;
+    border-color: #22c55e;
     transform: translateY(-2px);
 }
 
@@ -54,7 +54,7 @@ h1 {
     font-size: 26px;
     margin-bottom: 10px;
     font-weight: 500;
-    color: #ca8a04; /* amarelo mais forte */
+    color: #15803d; /* verde mais forte */
 }
 
 /* Footer */
@@ -63,7 +63,7 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 14px;
-    border-top: 2px solid #facc15;
+    border-top: 2px solid #22c55e;
     color: #666;
-    background-color: #fffbea;
+    background-color: #f0fdf4;
 }
