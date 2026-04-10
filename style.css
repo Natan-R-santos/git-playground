@@ -1,58 +1,59 @@
-/* Reset básico */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo da página */
+/* Body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #0f172a; /* azul escuro */
-    color: #e2e8f0; /* texto claro */
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
 }
 
 /* Header */
 header {
-    background-color: #1e293b;
     text-align: center;
     padding: 20px;
-    font-size: 24px;
-    font-weight: bold;
-    border-bottom: 2px solid #38bdf8;
+    font-size: 20px;
+    border-bottom: 1px solid #e5e7eb;
 }
 
 /* Main */
 main {
-    flex: 1;
+    padding: 60px 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    gap: 25px;
 }
 
-/* Section */
+/* Sections */
 section {
-    background-color: #1e293b;
+    background-color: #f9fafb;
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    max-width: 700px;
+    width: 100%;
     text-align: center;
+    border: 1px solid #e5e7eb;
 }
 
 /* Título */
 h1 {
-    font-size: 28px;
-    color: #38bdf8;
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 /* Footer */
 footer {
-    background-color: #1e293b;
+    margin-top: 40px;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     font-size: 14px;
-    border-top: 2px solid #38bdf8;
+    border-top: 1px solid #e5e7eb;
+    color: #666;
 }
