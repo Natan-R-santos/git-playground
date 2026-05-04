@@ -22,4 +22,4 @@ function saudacao(name,value) {
     let msg = `Bom dia magnata, ${name} seu saldo é de ${value}`;
     return msg;
 }
-console.log(saudacao("Natan, 482.371.928.00"));
+console.log(saudacao("Natan,928.373.528.98"));
