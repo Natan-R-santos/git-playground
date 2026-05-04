@@ -3,3 +3,4 @@ to aprendendo a usar o terminal do mac porque é dahora fazer tudo via terminal.
 aqui vai ser literalmente meu parque de diversao da linguica toda,aqui já peguei o fluxo da coisa e aprendi comandos do terminal para me ajudar a subir,atualizar do local pro remoto.
 vou add todos os arquivos possiveis para entrar na mente hehe,sendo assim aqui é onde eu posso e devo meter o biruta sim até aprender a coisa.
 conforme o tempo vou mudar o README deste repo e os arquivos serao atualizado com o tempo. a pratica leva a perfeicao!
+percebi que tenho que aprender mais o arroz com feijao,isso em todas as linguagens!
