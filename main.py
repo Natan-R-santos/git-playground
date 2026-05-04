@@ -1,33 +1,15 @@
-def ad():
-    a = float(input('Insert a number: '))
-    b = float(input('Insert a number: '))
-    c= float(input('Insert a number: '))
-    result = a + b + c
-    print(f'The result is: {result}')
+def saudacao(name, value):
+    msg = f"Bom dia magnata {name}, seu saldo é de R$ {value:,.2f}, aproveite seu dia da melhor forma!"
+    return msg  # Nao esqueca do return
+print(saudacao("Natan", 5000000000))
 
-def sub():
-    a = float(input('Insert a number: '))
-    b = float(input('Insert a number: '))
-    c= float(input('Insert a number: '))
-    result = a - b - c
-    print(f'The result is: {result}')
+teste= "Hello world"
+for i in range(12):
+    print(teste)
 
-while True:
-    a = int(input('Insert a number: '))
-    if a ==1:
-        print('hello world')
-        ad()
-    elif a ==2:
-        print('hello world')
-        sub()
-    elif a ==3:
-        print('hello world')
-    elif a ==4:
-        print('hello world')
-    elif a ==5:
-        print('hello world')
-    elif a ==0:
-        print('Exit system')
-        break
-    else:
-        print('Invalid number!')
+print("Teste")
+def saudacao(name, value):
+    msg = f"Bom dia magnata {name}, seu saldo é de R$ {value:,.2f}, aproveite seu dia da melhor forma!"
+    return msg  # O 'return' é essencial aqui
+
+print(saudacao("Natan", 5000000000))
