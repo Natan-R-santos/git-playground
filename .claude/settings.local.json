@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(git commit *)",
-      "Bash(git add *)",
-      "Bash(python3 teste03.py)"
-    ]
-  }
-}
