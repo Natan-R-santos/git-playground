@@ -7,7 +7,7 @@ class BankAccount():
         if deposit <= 0:
             raise ValueError("value invalid, just number positive")
         self.amount += deposit
-        return f"deposit with sucess! {self.amount}"
+        return f"deposit with sucess!"
 
     def withdraw(self,withdraw:int):
         if withdraw <= 0:
